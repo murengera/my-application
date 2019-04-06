@@ -6,7 +6,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 public class Mydatabase extends SQLiteOpenHelper {
 
-    public  static final String DATABASE_NAME = "employe.db";
+     static final String DATABASE_NAME = "employe.db";
     public static final String TABLE_NAME = "register";
     public static  final String COL_1 = "ID";
     public static  final String COL_2 = "Firstname";
